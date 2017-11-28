@@ -68,6 +68,16 @@
       });
     }
 
+    function addPatient() {
+      dataservice.addPatient(vm.patient).then(function(result) {
+          $translate('CREATE_SUCCESS').then(function(translationValue) {
+              logger.success(translationValue);
+          });
+      }).catch(function(error) {
+          
+      });
+    }
+
   }
 
 })();

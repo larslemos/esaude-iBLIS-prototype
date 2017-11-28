@@ -57,5 +57,7 @@
   "SEARCH_PLACEHOLDER":"Type patient name or patient NID ",
   "TESTS_LIST":"Tests List",
   "VISIT_TYPE":"Visit Type",
+  "CREATE_SUCCESS":"Created with success",
+  "CREATE_ERROR":"Error while creating",
   "": ""
 }
